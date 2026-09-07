@@ -25,5 +25,4 @@ A full-stack web application developed during my Software Engineering Internship
 ## ⚙️ Database Architecture Highlights
 The system utilizes a granular, relational database model rather than monolithic text blocks. A bidirectional `One-to-Many` relationship is established between the `Report` and `ReportItem` entities. JSON serialization issues (Infinite Recursion/Circular Reference) typical in bidirectional JPA relationships were resolved using strategic `@JsonIgnore` implementations.
 
-## 💡 Acknowledgements
-Special thanks to my mentors, Senior Software Engineers **Sevda Keçeci** and **Ceylan Kıvılcım**, for their technical guidance, code reviews, and for sharing their invaluable industry experience during the SDLC of this project.
+
